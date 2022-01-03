@@ -86,11 +86,7 @@ const Page = () =>{
                             <Button variant="ghost" colorScheme="pink" leftIcon={<Icon as ={IoLogoInstagram}></Icon>}>@davm.b</Button>
                             </Link>
                         </ListItem>
-                        <ListItem>
-                            <Link href="https://www.facebook.com/david.murillo.50159">
-                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as ={IoLogoFacebook}></Icon>}>David Murillo</Button>
-                            </Link>
-                        </ListItem>
+                       
                     </List>
                     
                 </Section>
