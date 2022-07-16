@@ -11,7 +11,7 @@ const Posts = () =>(
                 </Heading>
                 <Section delay={0.1}>
                     <SimpleGrid columns={[1,2,2]} gap={6}>
-
+                        
                     </SimpleGrid>
                 </Section>
             </Container>

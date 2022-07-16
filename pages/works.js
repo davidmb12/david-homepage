@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import thumbCaracolApp from '../public/images/contents/thumbMuseoCaracolApp.png' 
 import thumbCaracolAppAr from '../public/images/contents/caracolAppAr.png'
+import thumbFrostFreak from '../public/images/contents/frost-freak.jpg'
 import Paragraph from '../components/paragraph'
 const Works = () => {
   return (
@@ -20,6 +21,10 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem id="caracol_app_ar" title="Caracol App AR" thumbnail={thumbCaracolAppAr}>
+            </WorkGridItem>
+          </Section>
+           <Section>
+            <WorkGridItem id="frost_freak" title="Frost Freak" thumbnail={thumbFrostFreak}>
             </WorkGridItem>
           </Section>
         </SimpleGrid>
