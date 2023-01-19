@@ -6,28 +6,25 @@ import Layout from '../../components/layouts/article'
 
 const Work =() =>{
     return (
-        <Layout title="Frost Freak">
+        <Layout title="Gif App">
             <Container>
                 <Title>
-                    Frost Freak <Badge>2020</Badge>
+                    Gif ReactJS App <Badge>2021</Badge>
                 </Title>
                 <P>
-                    An FPS demo game made in Unity, available in itchio
+                    A simple gif app made with ReactJS, using Giphy API for fetching gifs.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta> Itch.io</Meta>
+                        <Meta> </Meta>
                         <Link href='https://davmb12.itch.io/frost-freak'>
-                            Play <ExternalLinkIcon mx="2px"></ExternalLinkIcon>
+                            Visit <ExternalLinkIcon mx="2px"></ExternalLinkIcon>
                         </Link>
                     </ListItem>
-                    <ListItem>
-                        <Meta> Platform</Meta>
-                            <span> Windows </span>
-                    </ListItem>
+                    
                     <ListItem>
                         <Meta> Stack</Meta>
-                            <span> Unity Game Engine </span>
+                            <span> ReactJS </span>
                     </ListItem>
                 </List>
                 <WorkImage src="/images/contents/frost-freak.jpg"></WorkImage>

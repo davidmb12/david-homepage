@@ -22,7 +22,7 @@ const Page = () =>{
                         <Heading as="h2" variant="page-title">
                             David Murillo 
                         </Heading>
-                        <p> Web Dev / 3D Generalist / Game Dev (Unity & Unreal) </p>
+                        <p> Web Dev / FullStack / Mobile Dev (Flutter, Android) /Game Dev (Unity & Unreal) </p>
                     </Box>
                     <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md:6}} align="center">
                         <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/contents/profilePic.jpg"></Image>
@@ -31,8 +31,9 @@ const Page = () =>{
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title"> Work</Heading>
                     <Paragraph>
-                        I&apos;m an indie software developer, primarly focused on digital experiences creation 
-                        such as videogames, webpages, augmented and virtual reality apps, and the like.</Paragraph>
+                        I&apos;m an indie software developer, primarly focused on web and mobile development, 
+                        currently working on a habit tracker app using Flutter SDK. Also interested in developing
+                        digital experiences creation such as videogames, webpages, augmented and virtual reality apps, and the like.</Paragraph>
                         <Box align="center"  my={4}>
                             <NextLink href="/works">
                                 <Button rightIcon={<ChevronRightIcon></ChevronRightIcon>} colorScheme = "teal">
@@ -45,30 +46,33 @@ const Page = () =>{
                         Bio
                     </Heading>
                     <BioSection>
-                    <BioYear>2000</BioYear>
-                    Born in Ensenada, Baja California
+                        <BioYear>2000</BioYear>
+                        Born in Ensenada, Baja California
                     </BioSection>
                     <BioSection>
-                    <BioYear>2018</BioYear>
-                    1st place in "Expo Ingenieria Cetys Universidad" with a 2D platformer videogame
+                        <BioYear>2018</BioYear>
+                        1st place in "Expo Ingenieria Cetys Universidad" with a 2D platformer videogame
                     </BioSection>
                     <BioSection>
-                    <BioYear>2020</BioYear>
-                        Started my self taught Blender learning process
+                        <BioYear>2020</BioYear>
+                            Started my self taught Blender learning process
                     </BioSection>
 
                     
                     <BioSection>
-                    <BioYear>2021</BioYear>
-                    1st place in "Expo Ingenieria Cetys Universidad" with a 3D first person shooter videogame made in Unity
+                        <BioYear>2021</BioYear>
+                        1st place in "Expo Ingenieria Cetys Universidad" with a 3D first person shooter videogame made in Unity
                     </BioSection>
-
+                    <BioSection>
+                        <BioYear>2022</BioYear>
+                        Internship at Odoo, working with Python, JavaScript and XML for developing custom modifications to the existing ERP software. 
+                    </BioSection>
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
                         I ♥
                     </Heading>
                     <Paragraph>
-                        Music, Gaming, Creative Writing, 3D modeling, Game development, Coffee
+                        Music, Playing Guitar, Gaming, Creative Writing, 3D modeling, Game development, Coffee
                     </Paragraph>
                 </Section>
                 <Section delay={0.3}>

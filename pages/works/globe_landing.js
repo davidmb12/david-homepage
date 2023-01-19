@@ -6,31 +6,30 @@ import Layout from '../../components/layouts/article'
 
 const Work =() =>{
     return (
-        <Layout title="Frost Freak">
+        <Layout title="Globe Landing Three JS Test">
             <Container>
                 <Title>
-                    Frost Freak <Badge>2020</Badge>
+                    Globe Landing Page<Badge>2022</Badge>
                 </Title>
                 <P>
-                    An FPS demo game made in Unity, available in itchio
+                    A simple ReactJS landing page for testing Three JS features.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta> Itch.io</Meta>
-                        <Link href='https://davmb12.itch.io/frost-freak'>
-                            Play <ExternalLinkIcon mx="2px"></ExternalLinkIcon>
+                        <Meta> </Meta>
+                        <Link href='https://globe-landing-hj88zm1xy-davidmb12.vercel.app/'>
+                            Visit <ExternalLinkIcon mx="2px"></ExternalLinkIcon>
                         </Link>
                     </ListItem>
-                    <ListItem>
-                        <Meta> Platform</Meta>
-                            <span> Windows </span>
-                    </ListItem>
+                    
                     <ListItem>
                         <Meta> Stack</Meta>
-                            <span> Unity Game Engine </span>
+                            <span> ReactJS </span>
+                            <span> Vite </span>
+                            <span> Three JS </span>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/contents/frost-freak.jpg"></WorkImage>
+                <WorkImage src="/images/contents/globe-app-preview.png"></WorkImage>
             </Container>
         </Layout>
     )
