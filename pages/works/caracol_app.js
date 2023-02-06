@@ -8,7 +8,7 @@ const Work =() =>{
     return (
         <Layout title="Caracol App">
             <Container>
-                <Title>
+                <Title title="Works">
                     Caracol App <Badge>2021</Badge>
                 </Title>
                 <P>
