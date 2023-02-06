@@ -3,10 +3,10 @@ import {Heading,Box, Image,Link,Badge} from '@chakra-ui/react'
 import { InfoOutlineIcon } from '@chakra-ui/icons'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 
-export const Title = ({children}) => (
+export const Title = ({children,title}) => (
     <Box>
-        <NextLink href="/works">
-            <Link>Works</Link>
+        <NextLink href={`/${title.toLowerCase()}`}>
+            <Link>{title}</Link>
         </NextLink>
         <span>
             &nbsp;

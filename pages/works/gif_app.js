@@ -8,7 +8,7 @@ const Work =() =>{
     return (
         <Layout title="Gif App">
             <Container>
-                <Title>
+                <Title title="Works">
                     Gif ReactJS App <Badge>2021</Badge>
                 </Title>
                 <P>

@@ -8,7 +8,7 @@ const Work =() =>{
     return (
         <Layout title="Globe Landing Three JS Test">
             <Container>
-                <Title>
+                <Title title="Works">
                     Globe Landing Page<Badge>2022</Badge>
                 </Title>
                 <P>
