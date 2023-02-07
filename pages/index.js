@@ -29,7 +29,7 @@ const Page = () =>{
                     </Box>
                 </Box>
                 <Section delay={0.1}>
-                    <Heading as="h3" variant="section-title"> Work</Heading>
+                    <Heading as="h3" variant="section-title"> Description</Heading>
                     <Paragraph>
                         I&apos;m an indie software developer, primarly focused on web and mobile development, 
                         currently working on a habit tracker app using Flutter SDK. Also interested in developing
