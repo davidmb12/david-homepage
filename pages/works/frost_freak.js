@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import {ExternalLinkIcon} from '@chakra-ui/icons'
-import {Title, WorkImage, Meta} from '../../components/work'
+import {Title, WorkImage,WorkVideo, Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -14,6 +14,7 @@ const Work =() =>{
                 <P>
                     An FPS demo game made in Unity, available in itchio
                 </P>
+
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta> Itch.io</Meta>
@@ -21,16 +22,21 @@ const Work =() =>{
                             Play <ExternalLinkIcon mx="2px"></ExternalLinkIcon>
                         </Link>
                     </ListItem>
+                    
                     <ListItem>
                         <Meta> Platform</Meta>
                             <span> Windows </span>
                     </ListItem>
+
                     <ListItem>
                         <Meta> Stack</Meta>
                             <span> Unity Game Engine </span>
                     </ListItem>
+                    
                 </List>
-                <WorkImage src="/images/contents/frost-freak.jpg"></WorkImage>
+            
+                <h2>Quick demo video</h2>
+                <WorkVideo src='https://player.vimeo.com/video/839843236?'></WorkVideo>
             </Container>
         </Layout>
     )
