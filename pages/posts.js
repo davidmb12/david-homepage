@@ -4,6 +4,7 @@ import Section from '../components/section'
 import {GridItem} from '../components/grid-item'
 import thumbFlutter from '../public/images/contents/flutter-logo-sharing.png' 
 import thumbMlkit from '../public/images/contents/mlkit-entity-extraction-api-1608031678771.jpeg';
+import thumbTransfer from '../public/images/contents/thumbTransfer.png';
 
 const Posts = () =>(
     <Layout title="Posts">
@@ -16,6 +17,8 @@ const Posts = () =>(
                         <GridItem id="parallax_effect" title="Parallax effect in flutter" thumbnail={thumbFlutter} >
                         </GridItem>
                         <GridItem id="text_translation" title="Text translation app in flutter" thumbnail={thumbMlkit} >
+                        </GridItem>
+                        <GridItem id="ether_transfer" title="Ethereum Transfer - Blockchain" thumbnail={thumbTransfer} >
                         </GridItem>
                     </SimpleGrid>
                 </Section>
